@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Obtener promedio por Alumno</title>
+    </head>
+    <body>
+        <form action="/alumno" method="POST" id="alumnoform">
+            <p>Alumnos</p>
+            <p>Slecciona un alumno para obtener su promedio</p>
+            <select name="alumno" form="alumnoform">
+                <option value="no" disabled>Alumnos</option>
+                %s
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

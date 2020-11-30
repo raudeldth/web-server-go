@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Optener promedio por Materia</title>
+    </head>
+    <body>
+        <form action="/materia" method="POST" id="materiaform">
+            <p>Materias</p>
+            <p>Slecciona una materia para obtener su promedio</p>
+            <select name="materia" form="materiaform">
+                <option value="no" disabled>Materias</option>
+                %s
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
